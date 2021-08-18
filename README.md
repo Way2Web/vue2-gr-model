@@ -1,6 +1,6 @@
 # Vue 2 directive for two-way binding Graphite components
 
-A custom Vue directive that makes two-way binding [Graphite components](https://graphitedesignsystem.com) easier.
+A custom Vue 2 directive that makes two-way binding [Graphite components](https://graphitedesignsystem.com) easier.
 
 ## Usage
 
@@ -27,6 +27,8 @@ Now you can use the `v-gr-model` directive to keep your data in sync!
 ```html
 <gr-input v-gr-model="name"></gr-input>
 ```
+
+Note: this syncs with the `value` property. Except for `way-checkbox`, it syncs with the `checked` property.
 
 ## Why is this necessary?
 
