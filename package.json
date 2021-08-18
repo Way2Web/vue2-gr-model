@@ -1,6 +1,6 @@
 {
   "name": "@graphiteds/vue2-gr-model",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom Vue 2 directive that makes two-way binding Graphite components easier.",
   "main": "dist/index.js",
   "files": [
