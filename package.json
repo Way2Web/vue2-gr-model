@@ -1,0 +1,28 @@
+{
+  "name": "@graphiteds/vue2-gr-model",
+  "version": "1.0.0",
+  "description": "A custom Vue 2 directive that makes two-way binding Graphite components easier.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/way2web/vue2-gr-model.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "rollup": "^2.56.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^6.1.0"
+  },
+  "dependencies": {}
+}
