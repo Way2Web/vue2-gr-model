@@ -28,7 +28,7 @@ Now you can use the `v-gr-model` directive to keep your data in sync!
 <gr-input v-gr-model="name"></gr-input>
 ```
 
-Note: this syncs with the `value` property. Except for `way-checkbox`, it syncs with the `checked` property.
+Note: this syncs with the `value` property. Except for `gr-checkbox`, it syncs with the `checked` property.
 
 ## Why is this necessary?
 
